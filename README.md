@@ -30,4 +30,4 @@ This repo contains my SQL queries that will work on [Snowflake](https://www.snow
     + [code](https://github.com/cdevairakkam7/SQL_Queries/blob/master/Joins.md)
    
   * Sometimes complex problems need more than one query. A concepted call nested query can get the job done.
-    +[code](https://github.com/cdevairakkam7/SQL_Queries/blob/master/Nested%20Query.md)
+    + [code](https://github.com/cdevairakkam7/SQL_Queries/blob/master/Nested%20Query.md)
