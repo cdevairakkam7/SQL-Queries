@@ -1,4 +1,4 @@
-##Inner Join
+## Inner Join
 
 ```
 SELECT S1.Unique_ID as Unique_ID,
