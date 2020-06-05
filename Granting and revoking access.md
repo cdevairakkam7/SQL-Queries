@@ -1,4 +1,4 @@
-### Granting Reader, Owner and Writer access to users.
+### Granting Reader, Owner, and Writer access to users.
 
 ```{sql}
 GRANT READER ON TABLE GIT_TEST To 'xyz@github.com'
