@@ -1,4 +1,4 @@
-# Create Table Sql Query
+### Create Table Sql Query
 ``` *.sql
 create table Git_test
 (Serial_no number,
@@ -13,9 +13,9 @@ Date_of_Entry date,
 time_stamp number);
 ```
 
-## I have intentionally created a table with popular data types that are used in everyday business.
+### I have intentionally created a table with popular data types that are used in everyday business.
 
-# Inserting data into the table
+### Inserting data into the table
 
 ``` {sql}
 insert into GIT_TEST values (1,'A1','Initial Stock',1000,1000,'Atlanta','US','NA','01-JAN-2017',1483328167000000);
