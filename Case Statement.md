@@ -1,4 +1,4 @@
-## CASE statment is used as a lookup function in the following query.
+## CASE statement is used as a lookup function in the following query.
 
 ```
 SELECT Country_code,
@@ -10,7 +10,7 @@ FROM   GIT_TEST
 GROUP BY Country_code,Venue;
 ```
 
-## CASE statment is used in the WHERE clause  against multiple conditions to get the resultant set
+## CASE statement is used in the WHERE clause  against multiple conditions to get the resultant set
 
 ```
 SELECT Unique_ID,
