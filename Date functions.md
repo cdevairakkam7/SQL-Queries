@@ -1,4 +1,4 @@
-##Converting Timezones
+## Converting Timezones
 ```
 SELECT CASE WHEN Country_code  IN ('JP') THEN CONVERT_TZ(time_stamp,'Japan/Tokyo','US/Pacific')
             WHEN Country_code  IN ('AUS') THEN CONVERT_TZ(time_stamp,'Brisbane/Australia','US/Pacific')
@@ -10,7 +10,7 @@ SELECT CASE WHEN Country_code  IN ('JP') THEN CONVERT_TZ(time_stamp,'Japan/Tokyo
 FROM   GIT_TEST;
 ```
 
-##Millisecond Manipulations
+## Millisecond Manipulations
 ```
 SELECT MONTHNAME(time_stamp),
        DAYOFMONTH(time_stamp),
@@ -30,7 +30,7 @@ SELECT MONTHNAME(time_stamp),
 FROM   GIT_TEST;
 ```
 
-##Date Filtering 
+## Date Filtering 
 ```
 Select date_of_entry,
        date_of_entry +10,
