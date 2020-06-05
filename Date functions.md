@@ -29,3 +29,14 @@ SELECT MONTHNAME(time_stamp),
 
 FROM   GIT_TEST;
 ```
+
+##Date Filtering 
+```
+Select date_of_entry,
+       date_of_entry +10,
+       date_of_entry - 10,
+       Country_code,
+       Venue
+FROM   GIT_TEST
+WHERE  date_of_entry > '01-MAY-2016';
+```
